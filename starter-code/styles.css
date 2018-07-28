@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #fff;
+  font-family: "Source Sans Pro",  sans-serif;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.clearfix {
+  clear: both;
+}
+
+/*-----Navigation-----*/
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  height: 30px;
+  padding-top: 15px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  margin-left: 20px; 
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/*----- Header---*/
+.header {
+  background-color: #21597a;
+  padding-top: 10px;
+}
+.logo {
+  float: left;
+  height: 40px;
+  padding: 0 20px 0 20px;
+}
+.logo img { 
+  height: 40px;
+}
+
+form {
+  float: left;
+  height: 40px;
+  width: 72%;
+  padding-right: 15px;
+}
+form input, form button {
+  height: 100%;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+form input {
+  float: left;
+  width: 96%;
+  background-color: rgb(31, 82, 111);
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: gray;
+  padding-left: 12px;
+}
+
+form button {
+  width: 4%;
+  background-color: rgb(31, 82, 111);
+  color: gray;
+}
+
+
+.login {
+  float: left;
+  width: 15%;
+  padding: 0;
+  margin: 0;
+  
+  text-align: right;
+}
+.login p {
+  float: left;
+  margin-right: 1%;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.login img {
+  height: 40px;
+  
+}
+
+
+.container {
+  margin: 0 15%;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+.link-btn {
+  padding: 8px 15px;
+  font-size: 1.15em;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+#signup {
+  background-image: url('images/city-scape.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#signup h2 {
+  width: 45%;
+  margin-bottom: 25px;
+  font-size: 2.5em;
+  font-weight: 100;
+}
+#signup p {
+  width: 50%;
+  margin-bottom: 35px;
+  
+}
+#signup .link-btn {
+  background-color: rgb(240, 146, 51);
+}
+
+/*------ Collaboration -----*/
+#collaboration {
+  height: 500px;
+  padding-top: 50px;
+  background-color: rgb(39, 53, 71);
+  color: #eee;
+}
+.image {
+  width: 50%;
+}
+.text {
+  float: right;
+  width: 35%;
+  padding-right: 5%;
+}
+.text h2 {
+  margin-bottom: 25px;
+  font-size: 1.8em;
+  font-weight: 100;
+}
+.text ul {
+  margin: 25px 0;
+}
+.text li {
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+.text a {
+  font-weight: 600;
+}
+.text .link-btn {
+  background-color: rgb(203, 56, 55);
+  
+}
+
+/*------ Install ------*/
+#install {
+  position: relative;
+  height: 500px;
+  background-image: url("images/forklift.svg");
+}
+.slogan {
+  width: 50%;
+  position: absolute;
+  top: 150px;
+  left: 15%;
+}
+#install h2 {
+  margin-bottom: 25px;
+  font-size: 1.8em;
+  font-weight: 100;
+}
+#install p {
+  width: 50%;
+  margin-bottom: 35px;
+  font-size: 1.25em;
+}
+#install .link-btn {
+  background-color: rgb(49, 68, 88);
+}
+
+
+/*------ What can we do ------*/
+#what-can {
+  color: #000;
+}
+#what-can header .container {
+  text-align: center; 
+}
+#what-can h2 {
+  color: rgb(83, 88, 98);
+  font-weight: 100;
+}
+#what-can p {
+  color: rgb(135, 145, 156);
+}
+#what-can article {
+  float: left;
+  width: 32%;
+  text-align: center;
+}
+#what-can h3 {
+  margin: 20px;
+}
+#what-can p {
+  padding: 0 20px;
+}
+#what-can a {
+  color: rgb(208, 74, 73);
+}
